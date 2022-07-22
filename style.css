@@ -57,7 +57,7 @@ section{
 }
 
 .hero{
-    margin-top: 2rem;
+    margin-top: 1rem;
     /* background-color: #bbb; */
     text-align: center;
     color: black;
@@ -92,24 +92,24 @@ section{
     display: flex;
     flex-direction: column;
     font-size: 1.4rem;
-    margin-top: 8rem;
+    margin-top: 4rem;
 }
 
 .title p{
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     width: 100%;
     font-style: italic;
 }
 
 h1{
-    font-size: 4rem;
+    font-size: 3rem;
     width: 100%;
     color:maroon;
     letter-spacing: 6px;
 }
 
 nav{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     position: fixed;
     left: 0;
     right: 0;
@@ -150,7 +150,7 @@ nav{
     border-radius: 1.7rem;
     padding: 0.7em;
     margin-right: 1.1rem ;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     width: max-content;
 }
 nav .logo{
@@ -276,7 +276,7 @@ button{
     border-radius: 1.1rem;
     border: none;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .btn-1{
@@ -444,7 +444,7 @@ button{
 
 .logo img{
     width: 100%;
-    max-width: 6rem;
+    max-width: 3rem;
     background-color: white;
     border-radius: 50%;
     margin-bottom: 1.3rem;
@@ -481,7 +481,7 @@ button{
 }
 
 .contact{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 .contact{
