@@ -480,13 +480,12 @@ button{
     margin-bottom: 1.9rem;
 }
 
-.contact{
-    font-size: 1.2rem;
-}
 
-.contact{
+.course{
     display: flex;
     flex-direction: row;
+    font-size: 1.8rem;
+    margin: 15rem auto;
 }
 
 .card{
@@ -499,8 +498,8 @@ button{
     height: 47rem;
 }
 
-.footer{
-    position: relative;
+/* .footer{
+    position: absolute;
     width: 100%;
     height: 6rem;
     background-color: maroon;
@@ -512,7 +511,7 @@ button{
     color: #fff;
     top: 95px;
     font-size: 2rem;
-}
+} */
 
 .card h2{
     margin-bottom: 2rem;
@@ -523,14 +522,16 @@ button{
 }
 
 @media screen and (max-width: 1250px){
-    .contact{
+    .course{
         display: flex;
         flex-direction: column;
         width: 70%;
+        margin-top: 6rem;
     }
     .card{
         margin: 3rem 0;
         padding: 2.5rem;
+        height: 15rem;
     }
 
 }
@@ -558,5 +559,6 @@ button{
     .about-us{
         padding: 4%;
     }
+
 }
 
