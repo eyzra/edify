@@ -291,7 +291,11 @@ button{
 
 button a{
     text-decoration: none;
-    color: #f47458;
+    color: white
+}
+
+.btn-1 a{
+    color: #466eb6;
 }
 
 .btn-1:hover{
