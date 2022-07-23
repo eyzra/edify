@@ -544,7 +544,7 @@ button a{
 @media screen and (max-width: 912px){
    .hero{
         display: block;
-        margin: 14rem auto;
+        margin: 12rem auto;
         /* background-color: #f47458; */
         height: 70%;
     }
