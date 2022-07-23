@@ -487,8 +487,6 @@ button{
 .contact{
     display: flex;
     flex-direction: row;
-    justify-items: center;
-    align-items: center;
 }
 
 .card{
@@ -499,6 +497,21 @@ button{
     margin-right: 1.4rem;
     width: 100%;
     height: 47rem;
+}
+
+.footer{
+    position: relative;
+    width: 100%;
+    height: 6rem;
+    background-color: maroon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 999;
+    color: #fff;
+    top: 95px;
+    font-size: 2rem;
 }
 
 .card h2{
@@ -520,8 +533,30 @@ button{
         padding: 2.5rem;
     }
 
-    .contact, .about{
-        margin: 0 auto;
+}
+
+@media screen and (max-width: 912px){
+   .hero{
+        margin: 14rem auto;
+        /* background-color: #f47458; */
+        height: 70%;
+    }
+    .button, .title{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about{
+        padding: 0 3%;
+        width: 80%;
+    }
+
+    .nav{
+        margin-bottom: 0;
+    }
+
+    .about-us{
+        padding: 4%;
     }
 }
 
