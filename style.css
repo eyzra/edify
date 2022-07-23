@@ -536,12 +536,14 @@ button a{
         margin: 3rem 0;
         padding: 2.5rem;
         height: max-content;
+        width: fit-content;
     }
 
 }
 
 @media screen and (max-width: 912px){
    .hero{
+        display: block;
         margin: 14rem auto;
         /* background-color: #f47458; */
         height: 70%;
@@ -549,6 +551,12 @@ button a{
     .button, .title{
         display: flex;
         flex-direction: column;
+    }
+
+    
+    button{
+        width: fit-content;
+        margin: 0 auto;
     }
 
     .about{
@@ -562,6 +570,8 @@ button a{
 
     .about-us{
         padding: 4%;
+        width: 70%;
+        font-size: 1.1rem;
     }
 
 }
